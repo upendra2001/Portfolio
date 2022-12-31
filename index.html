@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="user">
+            <img src="images/Upendra.jpeg" alt="">
+            <h3 class="name">Upendra Singh Chauhan</h3>
+            <p class="post">Final Year Undergraduate</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#portfolio">projects</a></li>
+                <li><a href="#achievements">achievements</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div id="menu" class="fas fa-bars"></div>
+    <section class="home" id="home">
+        <h1 id="short-intro"></h1>
+        <p id="p1">
+        </p>
+        <span> <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a></span>
+    </section>
+
+    <!-- theme toggler  -->
+
+    <div id="theme-toggler" class="fas fa-sun"></div>
+
+
+    <section class="about" id="about">
+        <h5 class="heading"><span>about</span> me </h5>
+        <div class="row">
+            <div class="info">
+                <h3> <span> name : </span> Upendra Singh Chauhan </h3>
+                <h3> <span> age : </span> 22 </h3>
+                <h3> <span> qualification : </span> Bachelor </h3>
+                <h3> <span> post : </span> student </h3>
+                <h3> <span> language : </span> english </h3>
+                <a href="https://drive.google.com/file/d/14s_-QHEhy52aEvRNeLO9yvzNFC_3cRtX/view"
+                    target=”_blank”><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+
+            </div>
+            <div class="counter">
+
+                <div class="box">
+                    <span>1800+</span>
+                    <h3>Leetcode</h3>
+                </div>
+
+                <div class="box">
+                    <span>4*</span>
+                    <h3>Codechef</h3>
+                </div>
+
+                <div class="box">
+                    <span>8.414</span>
+                    <h3>CGPA</h3>
+                </div>
+
+                <div class="box">
+                    <span>90.4%</span>
+                    <h3>Intermediate</h3>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="education" id="education">
+
+        <h1 class="heading"> my <span>education</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2016-17</span>
+                <h3>High School</h3>
+                <p>High Schooling from Kendriya Vidyalaya no. 1 AFS Chakeri, Kanpur affialated to CBSE. Secured 10 CGPA in 10th exams.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2018-19</span>
+                <h3>Intermediate</h3>
+                <p>Intermediate from Kendriya Vidyalaya no. 1 AFS Chakeri, Kanpur affialated to CBSE with stream PCM. Secured
+                    90.4% in board exams.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2019-23</span>
+                <h3>Bachelors in Technology</h3>
+                <p>Currently persuing BTech from Harcourt Butler Technical University, Kanpur with stream Computer
+                    Science and Engineering.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section class="portfolio" id="portfolio">
+
+        <h1 class="heading"> my <span>projects</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/social-media-website.png" alt="">
+                <div class="pro-content">
+                    <h1 class="pro-title heading"><span id="first-pro">Social Media Website</span></h1>
+                    <p class="pro-info" style="color: #333;">
+                        • Developed a full stack web application - OurApp (a social media app) using NodeJS, ExpressJS, MongoDB, and EJS (Template Engine for server-side rendering) and deployed the application to Vercel.
+                        <br>
+                        • OurApp is a simple real-world application where users can create posts, follow each other and also live chat with each
+                        other.
+                    </p>
+                    <div class="pro-btn-grp">
+                        <a href="https://github.com/upendra2001/Social-Media-App" target="_blank"><button
+                                class="pro-btn github btn">github</button></a>
+                        <a href="https://social-media-app-by-upendra.vercel.app/" target="_blank"><button class="pro-btn live btn">live</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/sorting-visualizer.jpg" alt="">
+                <div class="pro-content">
+                    <h1 class="pro-title heading"><span id="second-pro">Algorithms Visualizer</span></h1>
+                    <p class="pro-info " style="color: #333">
+                        • Developed a website to visualize Sorting Algorithms using HTML, CSS, JavaScript and Bootstrap 5.
+                        <br>
+                        • Working of Bubble Sort, Selection Sort, Insertion Sort, Quick Sort and Merge Sort is visualized.
+
+                    </p>
+                    <div class="pro-btn-grp">
+                        <a href="https://github.com/upendra2001/Algorithm-Visualizer"><button class="pro-btn github btn">github</button></a>
+                        <a href="https://upendra2001.github.io/Algorithm-Visualizer/"><button class="pro-btn live btn">live</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/img5.jpg" alt="">
+                <div class="pro-content">
+                    <h1 class="pro-title heading"><span id="third-pro">Weather application</span></h1>
+                    <p class="pro-info">
+                        • A simple weather app that allows you to get current weather information, based on the city
+                        using the API.
+                        <br>
+
+                        • It uses the OpenWeather API to fetch the current weather and uses NodeJS to create the server
+                        and serve the API.
+                    </p>
+                    <div class="pro-btn-grp">
+                        <a href="https://github.com/upendra2001/Weather-App " target=”_blank”><button
+                                class="pro-btn github btn">github</button></a>
+                        <a href=""><button class="pro-btn live btn">live</button></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="portfolio" id="achievements">
+
+        <h1 class="heading"> my <span>achievements</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/codegoda.jpg" alt="">
+                <div class="pro-content">
+                    <h1 class="pro-title heading"><span id="first-pro">Codegoda Rank 10</span></h1>
+                    <p class="pro-info" style="color:white;">
+                        • Secured Global Rank 10 in Codegoda 2022 out of 30,000+ participants
+                    </p>
+                    <div class="pro-btn-grp">
+                        <a href="https://drive.google.com/file/d/1DKF-3cM9s2mwUCwCOSYIESgjEn0WkggZ/view" target="_blank"><button class="pro-btn live btn">Certificate</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/kickstart.jfif" alt="">
+                <div class="pro-content">
+                    <h1 class="pro-title heading"><span id="first-pro">Google Kickstart Rank 320</span></h1>
+                    <p class="pro-info" style="color: white;">
+                        • Secured Global Rank 320 in Google Kickstart Round B 2022 out of 7000+ participants
+                    </p>
+                    <div class="pro-btn-grp">
+                        <a href="https://drive.google.com/file/d/1hpPSPBxKrSD0_0xx8uDCLTpVMDXY9VY0/view" target="_blank"><button class="pro-btn live btn">Certificate</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/codekaze.jpg" alt="">
+                <div class="pro-content">
+                    <h1 class="pro-title heading"><span id="first-pro" style="color:white">Codekaze Rank 321</span></h1>
+                    <p class="pro-info" style="color: white;">
+                        • Secured Global Rank 321 in Coding Ninjas CodeKaze 2022
+                    </p>
+                    <div class="pro-btn-grp">
+                        <a href="https://drive.google.com/file/d/1m83zEPPk4_yOMr8GSAjScSVFLIPZLB7i/view" target="_blank"><button class="pro-btn live btn">Certificate</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/acciowars.jfif" alt="">
+                <div class="pro-content">
+                    <h1 class="pro-title heading"><span id="first-pro">Acciowars Rank 85</span></h1>
+                    <p class="pro-info" style="color: white;">
+                        • Secured Global Rank 385 in AccioWars Coding Contest 2022 out of 11,000+ participants
+                    </p>
+                    <div class="pro-btn-grp">
+                        <a href="https://drive.google.com/file/d/1yVejagPs-AM0lpXqFVevDIZyqd_CDK_G/view" target="_blank"><button class="pro-btn live btn">Certificate</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/hashcode.jfif" alt="">
+                <div class="pro-content">
+                    <h1 class="pro-title heading"><span id="first-pro">Google Hashcode Rank 1412</span></h1>
+                    <p class="pro-info" style="color: white;">
+                        • Secured Global Rank 1412 in Google hashcode.
+                    </p>
+                    <div class="pro-btn-grp">
+                        <a href="https://drive.google.com/file/d/1i1l100qEGjYpox4B9PKU8gMmWlwfOU6p/view?usp=share_link" target="_blank"><button class="pro-btn live btn">Certificate</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/codejam.png" alt="">
+                <div class="pro-content">
+                    <h1 class="pro-title heading"><span id="first-pro">Google Codejam Rank 2690</span></h1>
+                    <p class="pro-info" style="color: black;">
+                        • Qualified Google Codejam 2022 with a rank of 2690 in round 1
+                    </p>
+                    <div class="pro-btn-grp">
+                        <a href="https://drive.google.com/file/d/1Brb2_7Ek_y3NO3vjzif3L9ehzZbyXS2D/view?usp=share_link" target="_blank"><button class="pro-btn live btn">Certificate</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/hacktoberfest-2020.jpg" alt="">
+                <div class="pro-content">
+                    <h1 class="pro-title heading"><span id="first-pro" style="color: white">Hacktoberfest</span></h1>
+                    <p class="pro-info" style="color: white;">
+                        • Qualified Hacktoberfest 2020 by successfully merging 4 pull requests.
+                    </p>
+                    <div class="pro-btn-grp">
+                        <a href="https://drive.google.com/file/d/1TGMIW2Q50BEHUgspnJ0TcGYlHRN9vGXy/view?usp=share_link" target="_blank"><button class="pro-btn live btn">Certificate</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/hackercup.png" alt="">
+                <div class="pro-content">
+                    <h1 class="pro-title heading"><span id="first-pro" style="color: white">Facebook Hackercup</span></h1>
+                    <p class="pro-info" style="color: white;">
+                        • Qualified Facebook hackercup 2020 qualification round.
+                    </p>
+                    <div class="pro-btn-grp">
+                        <a href="https://drive.google.com/file/d/1qxgjoBezntzD6LRJFuA3LIamYJRCUrVI/view?usp=share_link" target="_blank"><button class="pro-btn live btn">Certificate</button></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> me </h1>
+
+        <div class="row">
+
+            <div class="content">
+
+                <h3 class="title">contact info</h3>
+
+                <div class="info">
+                    <h3> <i class="fas fa-envelope"></i> Upendra Singh Chauhan </h3>
+                    <h3> <i class="fas fa-phone"></i> +91-9625502867</h3>
+                    <!-- <h3> <i class="fas fa-phone"></i> +91-8868893740 </h3> -->
+                    <h3> <i class="fas fa-map-marker-alt"></i> kanpur, india - 208015. </h3>
+                </div>
+
+                <div class="follow">
+                    <a href="https://www.facebook.com/upendra.singhchauhan.925" target=”_blank”
+                        class="fab fa-facebook-f"></a>
+                    <a href="https://twitter.com/Upendra_2001" target=”_blank” class="fab fa-twitter"></a>
+                    <a href="https://www.instagram.com/upendra2k21/" target=”_blank” class="fab fa-instagram"></a>
+                    <a href="https://www.linkedin.com/in/upendrasc2001/" target=”_blank”
+                        class="fab fa-linkedin"></a>
+                    <a href="https://github.com/upendra2001" target=”_blank”
+                        class="fab fa-github"></a>
+                </div>
+
+            </div>
+
+            <form action="">
+
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="text" placeholder="project" class="box">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i> </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <a href="#home" class="top">
+        <img src="images/scroll-top-img.png" alt="">
+    </a>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
